@@ -69,7 +69,7 @@ employeesContainerEle.append(empCard);
  async function handleDelete(id) {
     
     try{
- let resp = await fetch(`https://crud-app-js-xw67.onrender.com/employees/${id}`,
+ let resp = await fetch(`https://crud-app-5b4u.onrender.com/employees/${id}`,
 {method: "Delete"},
  );
  if (!resp.ok) {

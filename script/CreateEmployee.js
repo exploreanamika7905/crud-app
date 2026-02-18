@@ -41,7 +41,7 @@ let newEmployeeData = {
 }; 
 
   try{
-    let resp = await fetch("https://crud-app-js-xw67.onrender.com/employees", {
+    let resp = await fetch("https://crud-app-5b4u.onrender.com/employees", {
     method: "POST",
     headers: {
         "content-type": "application/json",
