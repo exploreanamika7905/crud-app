@@ -16,7 +16,7 @@ window.addEventListener("DOMContentLoaded", () => {
     getAllEmployees();
 });
 
-function displayEmployees(allemployees) 
+function displayEmployees(allEmployees) 
 {
     allEmployees.map((emp) => {
         const empCard = document.createElement("article");
